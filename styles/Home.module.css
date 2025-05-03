@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* for main heding */
+.A8534HEADING {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #e74c2a;
+}
+/* for main paragrap */
+.A3958PARA {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #808080;
+}
+/* for main section background image */
+.A34587BG {
+  position: relative;
+}
+.A34587BG::before {
+  content: "";
+  position: absolute;
+  top: -250px;
+  left: 0%;
+  width: 250px;
+  height: 100%;
+  background-image: url("../public/Vector.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 678px) {
+  .A34587BG::before {
+    display: none;
+  }
+}
+.A4872IMG {
+  width: 100%;
+  height: 75vh;
+  max-height: 528px;
+}
+@media (max-width: 678px) {
+  .A4872IMG {
+    width: 100%;
+    height: 50vh;
+  }
+}
+.GAP9845 {
+  column-gap: 2.65rem;
+}
+.BTN4743 {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #e74c2a;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #e74c2a;
+  padding: 0.3rem 1.65rem;
+  transition: all 0.2s linear;
+}
+.BTN4743:hover {
+  background: linear-gradient(90deg, #e24725 0%, #ff8d74 100%);
+  box-shadow: 0px 2px 15px rgba(255, 107, 61, 0.25);
+  border-radius: 30px;
+  color: #ffffff;
+}
+.S345698SECOND {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 78px;
+  color: #e74c2a;
+}
+.S3456873SECOND {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #262626;
+  text-align: center;
+  margin: auto 10%;
+  margin-bottom: 1.75rem;
+}
+.S7458CARD {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 90px 36px rgba(181, 181, 181, 0.01),
+    0px 51px 30px rgba(181, 181, 181, 0.05),
+    0px 23px 23px rgba(181, 181, 181, 0.09),
+    0px 6px 12px rgba(181, 181, 181, 0.1), 0px 0px 0px rgba(181, 181, 181, 0.1);
+  transition: all 0.35s ease-in-out;
+}
+.S7458CARD:hover {
+  background: linear-gradient(180deg, #f38168 0%, #e24725 100%);
+  box-shadow: 0px 90px 36px rgba(181, 181, 181, 0.01),
+    0px 51px 30px rgba(181, 181, 181, 0.05),
+    0px 23px 23px rgba(181, 181, 181, 0.09),
+    0px 6px 12px rgba(181, 181, 181, 0.1), 0px 0px 0px rgba(181, 181, 181, 0.1);
+  transition: all 0.35s ease-in-out;
+}
+.S2565WRAPP {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.S7458CARD:hover .S2565WRAPP {
+  background-color: white;
+  transition: all 0.35s linear;
+}
+.BG35476PRIMARY {
+  background-color: #468cd5;
+}
+.BG35476PRIMARY1 {
+  background-color: #0ba1c2;
+}
+.BG35476PRIMARY2 {
+  background-color: #47d3d3;
+}
+.BG35476DANGERLIGHT {
+  background-color: #d3479b;
+}
+.BG35476DANGER {
+  background-color: #d34747;
+}
+.BG35476WARNING {
+  background-color: #f9b248;
+}
+.S1352HEADING {
+  margin-top: 4.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #262626;
+}
+.S7458CARD:hover .S1352HEADING {
+  color: white;
+}
+.S834369 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+  color: #808080;
+}
+.S7458CARD:hover .S834369 {
+  color: white;
+}
+.S8234234LINK {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #e74c2a;
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.S7458CARD:hover .S8234234LINK {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.S87445SVG {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s linear;
+}
+.S7458CARD:hover .S87445SVG {
+  fill: #e74c2a;
+}
+.S7458ROW {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+}
+.S7458ROW > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.S76545COLUMN {
+  flex: 0 0 auto;
+  width: 25.5%;
+}
+
+.P3454ROW {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1.75rem;
+  row-gap: 0.25rem;
+}
+.P3454ROW > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.P3454COLUMN {
+  flex: 0 0 auto;
+  width: 14.29%;
+  align-self: center;
+}
+
+.logoImg {
+  max-height: 176px;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: luminosity;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  /* filter: grayscale(1); */
+}
+
+.logoImg:hover {
+  mix-blend-mode: normal;
+  opacity: 1;
+  transform: scale(1.2) !important;
+  /* filter: drop-shadow(8px 8px 8px black); */
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .S76545COLUMN {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+}
+.AB73459SUBHEADING {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #e74c2a;
+  text-align: left;
+}
+.AB73459PARA {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #808080;
+}
+.P4873PXCUSTOM {
+  padding-left: 1.275rem;
+  padding-right: 1.275rem;
+}
+@media (max-width: 678px) {
+  .P4873PXCUSTOM {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.VW9876534 {
+  width: 20vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.VW98765345 {
+  width: 30vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 678px) {
+  .VW9876534 {
+    margin-top: 1.65rem;
+    width: 65vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .VW98765345 {
+    margin-top: 1.65rem;
+    width: 65vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .P3454ROW {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1%;
+    row-gap: 0.25rem;
+  }
+  .P3454COLUMN {
+    flex: 0 0 auto;
+    width: 32%;
+    align-self: center;
+  }
+}

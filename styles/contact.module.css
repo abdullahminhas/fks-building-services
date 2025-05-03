@@ -1,0 +1,193 @@
+.C8725CONTACTWRAPPER {
+  background: linear-gradient(180deg, #ff5e3b 0%, #fc8a38 100%);
+  height: 100%;
+}
+.I87347INPUT {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding-bottom: 0.45rem;
+  margin-bottom: 4.75rem;
+  opacity: 0.8;
+}
+.I87347INPUT:focus {
+  opacity: 1;
+}
+.I87347INPUT::placeholder {
+  color: white;
+}
+.I87347INPUT:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.S4583SENDBTN {
+  background: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e74c2a;
+}
+.S4583SENDBTN:hover {
+  background: #ffffff;
+  color: #e74c2a;
+}
+.C98763434CONTACTHEADING {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-bottom: 4.75rem;
+}
+.C723568CONTACTIMG {
+  aspect-ratio: 1/1;
+  display: block;
+  margin-left: auto;
+}
+.C8467CONTACTHEADING {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #e74c2a;
+  padding-top: 3rem;
+}
+.C5684CONTACTLINK {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #808080;
+  text-decoration: none;
+}
+.V458765HEADINGDARK {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #262626;
+}
+.S7458ROW {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+}
+.S7458ROW > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.S76545COLUMN {
+  flex: 0 0 auto;
+  width: 25.5%;
+}
+.C565334CARD {
+  background: #ffffff;
+  box-shadow: 0px 90px 36px rgba(181, 181, 181, 0.01),
+    0px 51px 30px rgba(181, 181, 181, 0.05),
+    0px 23px 23px rgba(181, 181, 181, 0.09),
+    0px 6px 12px rgba(181, 181, 181, 0.1), 0px 0px 0px rgba(181, 181, 181, 0.1);
+  border-radius: 10px;
+  height: 100%;
+  min-height: 440px;
+}
+.C56843CARDHEADING {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #e74c2a;
+}
+.SH87653456SUBHEADING {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin-bottom: 4px;
+}
+.PIMG56783LOC {
+  position: absolute;
+  left: -8%;
+  top: 3px;
+}
+.C86445CELL {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #808080;
+  text-decoration: none;
+}
+.C86445CELL::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 36%;
+  left: -18%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #808080;
+}
+.text-align-left {
+  text-align: left;
+}
+.EMAIL734567LIST {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #e74c2a;
+  text-decoration: none;
+  word-break: break-word;
+}
+.EMAIL56745LISTBULLETS {
+  position: relative;
+}
+.EMAIL56745LISTBULLETS::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -9%;
+  top: 45%;
+  width: 5px;
+  height: 5px;
+  background-color: #e74c2a;
+  border-radius: 50px;
+}
+.ulPad {
+  padding-left: 10px;
+}
+@media (max-width: 1100px) {
+  .S76545COLUMN {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+}
+@media (max-width: 900px) {
+  .S76545COLUMN {
+    flex: 0 0 auto;
+    width: 40%;
+  }
+}
+@media (max-width: 750px) {
+  .S76545COLUMN {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+}
